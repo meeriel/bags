@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meeriel Crochet Handbags</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meeriel Crochet Handbags</h1>
+  </header>
+
+  <nav>
+    <div>Borsette all'uncinetto – artigianato autentico dalla Sardegna</div>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <div class="announcement">In arrivo la collezione Inverno 2026</div>
+  <div class="section-title">Le creazioni di Meeriel – un tocco di stile fatto a mano</div>
+
+  <section class="products">
+    <div class="product">
+      <img src="img/pink-ibiscus.jpg" alt="Pink Ibiscus">
+      <h3>Pink Ibiscus</h3>
+      <p>Borsa floreale dallo stile elegante e raffinato.</p>
+      <p><strong>€ 45,00</strong></p>
+    </div>
+    <div class="product">
+      <img src="img/clutch-bag.jpg" alt="Clutch Bag">
+      <h3>Clutch Bag</h3>
+      <p>Perfetta per le serate e le occasioni speciali.</p>
+      <p><strong>€ 40,00</strong></p>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <a class="btn-prodotti" href="prodotti.html">Tutti i nostri prodotti</a>
+    <h2>Contattaci</h2>
+    <p>Hai domande o desideri ordinare una borsa personalizzata?</p>
+    <a class="btn-whatsapp" href="https://wa.me/1234567890" target="_blank">Contatta Meeriel</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Meeriel Crochet Handbags – Tutti i diritti riservati
+  </footer>
+
+  <div id="sideMenu" class="side-menu">
+    <h2>Menù di Meeriel</h2>
+    <a href="prodotti.html">Tutti i prodotti</a>
+    <a href="#contatti">Contattaci</a>
+    <button onclick="toggleMenu()">Chiudi</button>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("sideMenu").classList.toggle("open");
+    }
+  </script>
+</body>
+</html>
