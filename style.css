@@ -1,0 +1,33 @@
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f4;
+  color: #333;
+}
+header, nav, footer {
+  background-color: #f3e8e2;
+  padding: 1rem;
+  text-align: center;
+}
+.section-title, .announcement {
+  text-align: center;
+  margin: 2rem 0;
+}
+.products, .gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.product, .borsa {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #fff;
+}
+.side-menu {
+  display: none;
+}
+.side-menu.open {
+  display: block;
+}
